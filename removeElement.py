@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: int
         """
         x = 0
-        count = 0
         while(x < len(nums)):
             if(nums[x] == val):
                 nums.pop(x)
