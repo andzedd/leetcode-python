@@ -16,7 +16,7 @@ if nString <= 0 or sLen <= 0:
 while(nString >= 0):
     s = ""
     while(sLen > 0):
-        s += random.choice(string.ascii_letters)
+        s += random.choice(string.ascii_letters + string.digits)
         sLen -= 1
     nString -= 1
     sLen = int(sys.argv[2])
