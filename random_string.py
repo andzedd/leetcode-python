@@ -13,8 +13,6 @@ if nString <= 0 or sLen <= 0:
     print("Number of strings and length must be greater than 0!")
     sys.exit()
 
-print(''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(sLen)))
-
-while(nString >= 0):
+while(nString > 0):
     print(''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(sLen)))
     nString -= 1
